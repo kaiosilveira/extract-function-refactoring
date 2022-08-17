@@ -1,0 +1,13 @@
+{
+  "name": "extract-function",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kaio Silveira",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
