@@ -30,4 +30,14 @@ function printBanner() {
   console.log('***********************');
 }
 
+function calculateOutstanding(invoice) {
+  let outstanding = 0;
+
+  for (const o of invoice.orders) {
+    outstanding += o.amount;
+  }
+
+  return outstanding;
+}
+
 module.exports = { printOwing };
