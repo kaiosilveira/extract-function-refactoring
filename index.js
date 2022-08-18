@@ -22,4 +22,10 @@ function printOwing(invoice) {
   console.log(`due: ${invoice.dueDate.toLocaleDateString()}`);
 }
 
+function printBanner() {
+  console.log('***********************');
+  console.log('**** Customer owes ****');
+  console.log('***********************');
+}
+
 module.exports = { printOwing };
