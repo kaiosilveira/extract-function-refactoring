@@ -3,9 +3,7 @@ const Clock = { today: new Date() };
 function printOwing(invoice) {
   let outstanding = 0;
 
-  console.log('***********************');
-  console.log('**** Customer owes ****');
-  console.log('***********************');
+  printBanner();
 
   // calculate outstanding
   for (const o of invoice.orders) {
