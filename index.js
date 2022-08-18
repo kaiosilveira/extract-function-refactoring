@@ -3,7 +3,7 @@ const Clock = { today: new Date() };
 function printOwing(invoice) {
   printBanner();
 
-  let outstanding = calculateOutstanding(invoice);
+  const outstanding = calculateOutstanding(invoice);
   recordDueDate(invoice);
   printDetails(invoice, outstanding);
 
